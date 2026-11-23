@@ -40,7 +40,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       SizedBox(
               height: 40,
              ),
-              Text("Phone number or email",
+              Text("Phone num or email",
               style: TextStyle(
                color: Colors.black,
               ),),
