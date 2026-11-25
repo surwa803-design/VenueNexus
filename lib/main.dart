@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get.dart';
+import 'package:venue_nexses/screens/authentication/login.dart';
 import 'package:venue_nexses/screens/routes/app_routes.dart';
 
 void main(){
@@ -12,8 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute:AppRoutes.login ,
+      
+     initialRoute:AppRoutes.Home ,
       getPages: AppRoutes.Pages,
+     
     );
   }
 }
