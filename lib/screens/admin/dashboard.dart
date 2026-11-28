@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
 
-
 class DashboardScreen extends StatelessWidget {
   const DashboardScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text("Admin Dashboard"),
-          backgroundColor: Color(0xFF651C32),
-          foregroundColor: Colors.white,
-        ),
+      appBar: AppBar(
+        title: Text("Admin Dashboard"),
+        backgroundColor: Color(0xFF651C32),
+        foregroundColor: Colors.white,
+      ),
     );
   }
 }
